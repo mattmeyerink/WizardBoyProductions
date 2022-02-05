@@ -2,41 +2,49 @@ import './App.css';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import DVYAppInfo from './components/DVY/DVYAppInfo';
+import DVYSupport from "./components/DVY/DVYSupport";
+import DVYPrivacyPolicy from './components/DVY/DVYPrivacyPolicy';
+import RunningPartnerAppInfo from './components/RunningPartner/RunningPartnerAppInfo';
+import RunningPartnerSupport from './components/RunningPartner/RunningPartnerSupport';
+import WizardBoyProductions from './images/WizardBoyProductions.png'
 
 function App() {
   return (
     <div className="App">
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img src={WizardBoyProductions} alt="WBP Logo" className="navigationLogo" />
+            Wizard Boy Productions
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Features</Nav.Link>
-              <Nav.Link href="/">Pricing</Nav.Link>
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <NavDropdown title="DVY" id="dvyDropdown">
+                <NavDropdown.Item href="/DVYAppInfo">App Info</NavDropdown.Item>
+                <NavDropdown.Item href="/DVYSupport">Support</NavDropdown.Item>
+                <NavDropdown.Item href="DVYPrivacyPolicy">Privacy Policy</NavDropdown.Item>
               </NavDropdown>
-            </Nav>
-            <Nav>
-              <Nav.Link href="#deets">More deets</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
-                Dank memes
-              </Nav.Link>
+
+              <NavDropdown title="Running Partner" id="runningPartnerDropdown">
+                <NavDropdown.Item href="/RunningPartnerAppInfo">App Info</NavDropdown.Item>
+                <NavDropdown.Item href="/RunningPartnerSupport">Support</NavDropdown.Item>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
       <Routes>
-        <Route
-          path="/"
-          element={Home()}
-        />
+        <Route path="/" element={Home()} />
+
+        <Route path="/DVYAppInfo" element={DVYAppInfo()} /> 
+        <Route path="/DVYPrivacyPolicy" element={DVYPrivacyPolicy()} />
+        <Route path="/DVYSupport" element={DVYSupport()} />
+
+        <Route path="/RunningPartnerAppInfo" element={RunningPartnerAppInfo()} />
+        <Route path="/RunningPartnerSupport" element={RunningPartnerSupport()} />
       </Routes>
     </div>
   );
