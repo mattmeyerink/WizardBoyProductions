@@ -1,7 +1,11 @@
+import WizardBoyProductionsLogo from '../images/WizardBoyProductions.png';
+
 function Home() {
   return (
-    <div>
-      <h1>This will be the home screen</h1>
+    <div className='homeContainer'>
+      <h1 className='homePageMainHeading'>Wizard Boy Productions</h1>
+      <p className='homePageMinorText'>Bringing magical technology to a muggle world</p>
+      <img src={WizardBoyProductionsLogo} alt="WBPLogo" className='homePageMainLogo' />
     </div>
   );
 }

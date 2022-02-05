@@ -17,3 +17,21 @@ code {
   border-radius: 10px;
   margin-right: 10px;
 }
+
+.homeContainer {
+  margin-top: 100px;
+}
+
+.homePageMainHeading {
+  font-size: 70px;
+}
+
+.homePageMinorText {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.homePageMainLogo {
+  height: 300px;
+  border-radius: 50px;
+}
