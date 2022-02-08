@@ -1,6 +1,6 @@
 function DVYPrivacyPolicy() {
     return (
-        <div>
+        <div className="privacyPolicyContainer">
             <h1>DVY Privacy Policy</h1>
             <p>Last updated February 05, 2022</p>
 
@@ -12,7 +12,7 @@ function DVYPrivacyPolicy() {
             </p>
 
             <p>
-                This privacy notices describes how we might use your information if you download and use our mobile application - DVY.
+                This privacy notice describes how we might use your information if you download and use our mobile application - DVY.
             </p>
 
             <p>In this privacy notice, if we refer to:</p>
@@ -61,7 +61,7 @@ function DVYPrivacyPolicy() {
             <h5>Information collected through our App</h5>
             
             <p>
-                In Short: We collect information regarding your mobile devicee, when you use our App.
+                In Short: We collect information regarding your mobile device, when you use our App.
             </p>
 
             <p>
@@ -85,7 +85,7 @@ function DVYPrivacyPolicy() {
 
             <p>
                 In Short: We only share your information with your consent, to comply with laws, to provide you with 
-                services to protect your rights, or to fufill business obligations.
+                services to protect your rights, or to fulfill business obligations.
             </p>
 
             <p>
@@ -99,13 +99,13 @@ function DVYPrivacyPolicy() {
                 </li>
 
                 <li>
-                    Legitimate Business: We may process your data when it is reasonably necessary to achive our legitimate
+                    Legitimate Business: We may process your data when it is reasonably necessary to achieve our legitimate
                     business interests.
                 </li>
 
                 <li>
                     Performance of a Contract: Where we have entered into a contract with you, we may process your
-                    personal information to fufill the terms of our contract.
+                    personal information to fulfill the terms of our contract.
                 </li>
                 
                 <li>
@@ -136,7 +136,7 @@ function DVYPrivacyPolicy() {
                 <h2>How Long Do We Keep Your Information?</h2>
 
                 <p>
-                    In Short: We keep your information for as long as necessary to fufill the purposes outlined in this privacy
+                    In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this privacy
                     policy notice unless otherwise required by law.
                 </p>
 
@@ -164,9 +164,9 @@ function DVYPrivacyPolicy() {
                 <p>
                     We have implemented appropriate technical and organizational security measures designed to protect the security
                     of any personal information we process. However, despite our safeguards and efforts to secure your information, 
-                    no electronic transmition over the internet or information storage technology can be guranteed to be 100% secure, 
+                    no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, 
                     so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to 
-                    defeat our security, and improperly collect, access, steal, or modify your information. Although we will do our best through to 
+                    defeat our security, and improperly collect, access, steal, or modify your information. Although we will do our best to 
                     protect your personal information, transmission of personal information to and from our App is at your own risk. You 
                     should only access the App within a secure environment.
                 </p>
@@ -184,15 +184,15 @@ function DVYPrivacyPolicy() {
                 These may include the right (i) to request access and obtain a copy of your personal information, (ii) 
                 to request rectification or erasure, (iii) to restrict the processing of your personal information, and (iv) 
                 if applicable, to data portability. In certain circumstances, you may also have the right to object to processing 
-                of your personal information. to make such a request, please use the contact details provided below. We will consider
+                of your personal information. To make such a request, please use the contact details provided below. We will consider
                 and act upon any request in accordance with applicable data protection laws.
             </p>
 
             <p>
                 If we are relying on your consent to process your personal information, you have the right to withdraw your
                 consent at any time. Please note however that this will not affect the lawfulness of the processing before
-                its withdrawl, nor will it affect the processing of your personal information conducted in reliance on lawful 
-                processing frounds other than consent.
+                its withdrawal, nor will it affect the processing of your personal information conducted in reliance on lawful 
+                processing grounds other than consent.
             </p>
 
             <p>
@@ -207,7 +207,7 @@ function DVYPrivacyPolicy() {
                 or setting you can activate to signal your privacy preference not to have data about your online browsing activities 
                 monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has 
                 been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically
-                communicates your choice not to be tracked online. if a standard for online tracking is adopted that we must follow in
+                communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in
                 the future, we will inform you about that practice in a revised version of this privacy notice.
             </p>
 
@@ -219,7 +219,7 @@ function DVYPrivacyPolicy() {
             </p>
 
             <p>
-                California Civil Code Section 1798.83, also known as the "Shine the Light" law, premits our users who are 
+                California Civil Code Section 1798.83, also known as the "Shine the Light" law, permits our users who are 
                 California residents to request and obtain from us, once a year and free of charge, information about
                 categories of personal information (if any) we disclosed to third parties for direct marketing purposes 
                 and the names and addresses of all third parties with which we shared personal information in the 
@@ -244,7 +244,7 @@ function DVYPrivacyPolicy() {
                     Every individual who is in the State of California for other than a temporary or transitory purpose and
                 </li>
                 <li>
-                    Every individual who is domiciled in the State of California who is outside othe State of California for 
+                    Every individual who is domiciled in the State of California who is outside of the State of California for 
                     a temporary or transitory purpose.
                 </li>
             </ol>
@@ -262,133 +262,133 @@ function DVYPrivacyPolicy() {
                 We have collected the following categories of personal information in the past twelve (12) months:
             </p>
             
-            <table>
-                <tr>
-                    <th>Category</th>
-                    <th>Examples</th>
-                    <th>Collected</th>
+            <table className="tableContainer">
+                <tr className="tableContainerRow">
+                    <th className="tableElement">Category</th>
+                    <th className="tableElement">Examples</th>
+                    <th className="tableElement">Collected</th>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Identifiers
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Contact details, such as real name, alias, postal address, telephone or mobile contact number,
                         unique personal identifier, online identifier, Internet Protocol address, email address and 
                         account name.
                     </td>
-                    <td>NO</td>
+                    <td className="tableElement">NO</td>
                 </tr>
-                <tr>
-                    <td>
-                        Personal information categories listed in teh California Customer Records statute
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
+                        Personal information categories listed in the California Customer Records statute
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Name, contact information, education, employment, employment history and financial information
                     </td>
-                    <td>
+                    <td className="tableElement">
                         YES
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Protected classification characteristics under California or federal law
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Gender and date of birth
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Commercial information
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Transaction information, purchase history, financial details and payment information
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Biometric information
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Fingerprints and voiceprints
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Internet or other similar network activity
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Browsing history, search history, online behavior, interest data, and interactions with our 
                         and other websites, applications, systems, and advertisements
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Geolocation data
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Device location
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Audio, electronic, visual, thermal, olfactory, or similar information
                     </td>
-                    <td>
-                        Images and audio, video or call recordings created in connection with our busines activities
+                    <td className="tableElement">
+                        Images and audio, video or call recordings created in connection with our business activities
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Professional or employment related information
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Business contact details in order to provide you or your services at a business level, job 
                         title as well as work history and professional qualifications if you apply for a job with us.
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Education Information
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Student records and directory information
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr className="tableContainerRow">
+                    <td className="tableElement">
                         Inferences drawn from other personal information
                     </td>
-                    <td>
+                    <td className="tableElement">
                         Inferences drawn from any of the collected personal information listed above to create a profile 
                         or summary about, for example an individual's preferences and characteristics
                     </td>
-                    <td>
+                    <td className="tableElement">
                         NO
                     </td>
                 </tr>
@@ -396,7 +396,7 @@ function DVYPrivacyPolicy() {
 
             <p>
                 We may also collect other personal information outside of these categories instances where you interact
-                with us in-person, online, or by phoen or mail in the context of:
+                with us in-person, online, or by phone or mail in the context of:
             </p>
 
             <ul>
@@ -449,7 +449,7 @@ function DVYPrivacyPolicy() {
 
             <h4>Your rights with respect to your personal data</h4>
 
-            <p>Right to request deletion of the data - Request to delete</p>
+            <p><b>Right to request deletion of the data - Request to delete</b></p>
 
             <p>
                 You can ask for the deletion of your personal information. If you ask us to delete your personal information, 
@@ -459,7 +459,7 @@ function DVYPrivacyPolicy() {
                 activities.
             </p>
 
-            <p>Right to be informed - Request to know</p>
+            <p><b>Right to be informed - Request to know</b></p>
 
             <p>Depending on the circumstances, you have a right to know:</p>
 
@@ -474,7 +474,7 @@ function DVYPrivacyPolicy() {
                     whether we sell your personal information to third parties;
                 </li>
                 <li>
-                    whether we sell yoour personal information to third parties;
+                    whether we sell your personal information to third parties;
                 </li>
                 <li>
                     the categories of personal information that we sold or disclosed for a business purpose;
@@ -489,11 +489,11 @@ function DVYPrivacyPolicy() {
             </ul>
 
             <p>
-                In accordance with applicable law, we are not obligated to privide or delete consumer information that is
-                de-identified in respoonse to a consumer request or to re-identify individual data to verify a consumer request.
+                In accordance with applicable law, we are not obligated to provide or delete consumer information that is
+                de-identified in response to a consumer request or to re-identify individual data to verify a consumer request.
             </p>
 
-            <p>Right to Non-Discrimination for the Exercise of a Consumer's Privacy Rights</p>
+            <p><b>Right to Non-Discrimination for the Exercise of a Consumer's Privacy Rights</b></p>
 
             <p>We will not discriminate against you if you exercise your privacy rights.</p>
 
@@ -503,7 +503,7 @@ function DVYPrivacyPolicy() {
                 Upon receiving your request, we will need to verify your identity to determine you are the same person about
                 whom we have the information in our system. These verification efforts require us to ask you to provide information 
                 so that we can match it with information you have previously provided us. For instance, depending on the type of request
-                you submit, we may ask you to provide certain information so that we can match the informtion you provide with the information 
+                you submit, we may ask you to provide certain information so that we can match the information you provide with the information 
                 we already have on file, or may contact you through a communication method (e.g. phone or email) that you have 
                 previously provided to us. We may also use other verification methods as the circumstances dictate. 
             </p>
@@ -516,7 +516,7 @@ function DVYPrivacyPolicy() {
                 will delete such additionally provided information as soon as we finish verifying you.
             </p>
             
-            <p>Other privacy rights</p>
+            <p><b>Other privacy rights</b></p>
 
             <ul>
                 <li>
@@ -533,7 +533,7 @@ function DVYPrivacyPolicy() {
                 </li>
                 <li>
                     you may request to opt-out from future selling of your personal information to third parties. Upon 
-                    reciving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 
+                    receiving a request to opt-out, we will act upon the request as soon as feasibly possible, but no later than 
                     15 days from the date of the request submission. 
                 </li>
             </ul>
@@ -546,12 +546,12 @@ function DVYPrivacyPolicy() {
 
             <h2>Do We Make Updates To This Notice?</h2>
 
-            <p>In Short: Yes, we will update this notice as necessary to tay compliant with relevant laws.</p>
+            <p>In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws.</p>
 
             <p>
                 We may update this privacy notice from time to time. The updated version will be indicated by an updated
-                "Revised" date and the updated version will be effective as soon as it is accessible. if we make material 
-                changes to thie privacy notice, we may notify you either by prominently posting a notice of such changes 
+                "Revised" date and the updated version will be effective as soon as it is accessible. If we make material 
+                changes to the privacy notice, we may notify you either by prominently posting a notice of such changes 
                 or by directly sending you a notification. We encourage you to review this privacy notice frequently to be 
                 informed of how we are protecting your information.
             </p>
@@ -564,9 +564,9 @@ function DVYPrivacyPolicy() {
             </p>
 
             <p>
-                Wizard Boy Productions
-                20999 Greenbriar Cir 
-                South Lyon, MI 48178
+                Wizard Boy Productions <br/>
+                20999 Greenbriar Cir <br/>
+                South Lyon, MI 48178 <br/>
                 United States
             </p>
 

@@ -35,3 +35,23 @@ code {
   height: 300px;
   border-radius: 50px;
 }
+
+.privacyPolicyContainer {
+  text-align: left;
+  margin: 50px;
+}
+
+.tableContainer {
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+.tableContainerRow {
+  border: 1px solid black;
+}
+
+.tableElement {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
