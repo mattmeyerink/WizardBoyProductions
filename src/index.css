@@ -55,3 +55,22 @@ code {
   padding: 5px;
   text-align: center;
 }
+
+.faqAccordianWrapper {
+  margin-left: 125px;
+  margin-right: 125px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.faqHeader {
+  text-align: left;
+}
+
+.supportPageWrapper {
+  margin: 25px;
+}
+
+.faqParagraph {
+  text-align: left;
+}
