@@ -1,7 +1,7 @@
 function DVYPrivacyPolicy() {
     return (
         <div className="privacyPolicyContainer">
-            <h1>DVY Privacy Policy</h1>
+            <h1 className="privacyPolicyPageTitle">DVY Privacy Policy</h1>
             <p>Last updated February 05, 2022</p>
 
             <p>
