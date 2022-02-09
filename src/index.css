@@ -74,3 +74,11 @@ code {
 .faqParagraph {
   text-align: left;
 }
+
+.underConstructionContainer {
+  margin: 100px;
+}
+
+.appInfoContainer {
+  margin: 25px;
+}

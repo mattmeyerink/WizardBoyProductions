@@ -1,7 +1,11 @@
+import UnderConstruction from "../UnderConstruction";
+
 function DVYAppInfo() {
     return (
-        <div>
-            <h1>This will be the DVYAppInfo Page</h1>
+        <div className="appInfoContainer">
+            <h1>DVY App Info</h1>
+         
+            <UnderConstruction />
         </div>
     );
 }

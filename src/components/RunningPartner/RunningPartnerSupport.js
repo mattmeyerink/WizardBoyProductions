@@ -1,7 +1,11 @@
+import UnderConstruction from "../UnderConstruction";
+
 function RunningPartnerSupport() {
     return (
-        <div>
-            <h1>This will be the Running Partner Support Page</h1>
+        <div className="supportPageWrapper">
+            <h1>Running Partner Support</h1>
+
+            <UnderConstruction />
         </div>
     );
 }
