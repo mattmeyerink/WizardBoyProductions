@@ -81,14 +81,25 @@ function DVYAppInfo() {
                     <img src={AssignItems} alt="Assign Items Screenshot" className="screenshotImage" />
                     <div className="screenshotText">
                         <h3>Assign Items</h3>
-                        <p>Assign them items boiiii.</p>
+                        <p>
+                            To assign an item, tap on the item in the list to reveal a list of potential friends.
+                            Select the friend that you want to assign the item to. If you want to split the item,
+                            tap the split button at the bottom of the list of potential friends when you click on 
+                            an item. To view which items are assigned to a specific friend, click on the circular 
+                            friend icon. Items can be removed from a specific friend if you click on the item in that
+                            friends list and then select the delete button.
+                        </p>
                     </div>
                 </div>
 
                 <div className="screenshotWrapper">
                     <div className="screenshotText">
                         <h3>Split Items</h3>
-                        <p>Split them items boiii.</p>
+                        <p>
+                            Easily split an item within the split item modal. Use the stepper to input
+                            the number of people that are splitting the item and view the effect on the 
+                            price. Click split to create the correct number of split items.
+                        </p>
                     </div>
                     <img src={SplitItems} alt="Split Items Screenshot" className="screenshotImage" />
                 </div>
@@ -97,7 +108,11 @@ function DVYAppInfo() {
                     <img src={SummaryPage} alt="Summary Screenshot" className="screenshotImage" />
                     <div className="screenshotText">
                         <h3>View the Summary</h3>
-                        <p>How much everyone owes you</p>
+                        <p>
+                            Each person's summary displays their grand total, the name and cost of 
+                            each item assigned to them, their tax contribution, and their tip contribution.
+                            To view this expanded breakdown for a friend just click on their name on the list.
+                        </p>
                     </div>
                 </div>
             </div>
