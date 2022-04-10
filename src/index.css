@@ -101,3 +101,21 @@ code {
   text-align: left;
   margin-left: 25px;
 }
+
+.screenshotImage {
+  height: 500px;
+  border-radius: 25px;
+}
+
+.screenshotWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.screenshotText {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 500px;
+}
