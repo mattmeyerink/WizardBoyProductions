@@ -25,6 +25,10 @@ function DVYAppInfo() {
                         DVY allows you to scan receipts, split items, and divide the tax/tip based on the cost of what each person ordered to make things as FAIR as possible. Its user-friendly, colorful interface makes it easy and fun to use! Never stress when the waiter brings out the check again!
                     </p>
 
+                    <p>
+                        Search for DVY on the IOS App Store today!
+                    </p>
+
                     <h4>Built With</h4>
                     <ul>
                         <li>Swift UI</li>
