@@ -5,8 +5,6 @@ import Home from "./components/Home";
 import DVYAppInfo from './components/DVY/DVYAppInfo';
 import DVYSupport from "./components/DVY/DVYSupport";
 import DVYPrivacyPolicy from './components/DVY/DVYPrivacyPolicy';
-import RunningPartnerAppInfo from './components/RunningPartner/RunningPartnerAppInfo';
-import RunningPartnerSupport from './components/RunningPartner/RunningPartnerSupport';
 import WizardBoyProductions from './images/WizardBoyProductions.png'
 
 function App() {
@@ -26,25 +24,17 @@ function App() {
                 <NavDropdown.Item href="/DVYSupport">Support</NavDropdown.Item>
                 <NavDropdown.Item href="DVYPrivacyPolicy">Privacy Policy</NavDropdown.Item>
               </NavDropdown>
-
-              <NavDropdown title="Running Partner" id="runningPartnerDropdown">
-                <NavDropdown.Item href="/RunningPartnerAppInfo">App Info</NavDropdown.Item>
-                <NavDropdown.Item href="/RunningPartnerSupport">Support</NavDropdown.Item>
-              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
 
       <Routes>
-        <Route path="/" element={Home()} />
+        <Route path="/" element={ Home() } />
 
-        <Route path="/DVYAppInfo" element={DVYAppInfo()} /> 
-        <Route path="/DVYPrivacyPolicy" element={DVYPrivacyPolicy()} />
-        <Route path="/DVYSupport" element={DVYSupport()} />
-
-        <Route path="/RunningPartnerAppInfo" element={RunningPartnerAppInfo()} />
-        <Route path="/RunningPartnerSupport" element={RunningPartnerSupport()} />
+        <Route path="/DVYAppInfo" element={ DVYAppInfo() } /> 
+        <Route path="/DVYPrivacyPolicy" element={ DVYPrivacyPolicy() } />
+        <Route path="/DVYSupport" element={ DVYSupport() } />
       </Routes>
     </div>
   );
